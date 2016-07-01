@@ -70,7 +70,7 @@ namespace NingZiyi.ZiYi_VS2013_Theme_Editor
             var rWindow = (Window)sender;
 
             //加载图片
-            var rImageSource = BitmapFrame.Create(new Uri(@"D:\我爱紫衣哥哥\background.jpg"/*图片路径*/), BitmapCreateOptions.None, BitmapCacheOption.OnLoad);
+            var rImageSource = BitmapFrame.Create(new Uri(@"D:\我爱s紫衣哥哥\background.jpg"/*图片路径*/), BitmapCreateOptions.None, BitmapCacheOption.OnLoad);
             rImageSource.Freeze();
             var rImageControl = new Image()
             {
